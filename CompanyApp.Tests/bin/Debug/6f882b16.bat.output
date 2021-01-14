@@ -1,0 +1,35 @@
+Executing: C:\Users\Ane\AppData\Local\FineCodeCoverage\msTestPlatform\tools\net451\Common7\IDE\Extensions\TestPlatform\vstest.console.exe
+Microsoft (R) Test Execution Command Line Tool Version 16.7.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+
+A total of 1 test files matched the specified pattern.
+  û AddNewEmployee_WhenEmployeeIsValidAndNotPresent_ShouldAddEmployee [1s 464ms]
+  û AddNewEmployee_WhenEmployeeIsValidAndPresent_ShouldNotAddEmployee [9ms]
+  û AddNewEmployee_WhenEmployeeNull_ShouldThrowException [5ms]
+  û AddNewProject_WhenProjectIsValidAndNotPresent_ShouldAddProject [13ms]
+  û AddNewProject_WhenProjectIsValidAndPresent_ShouldNotAddProject [8ms]
+  û AddNewProject_WhenProjectNull_ShouldThrowException [2ms]
+  û DeleteEmployee_WhenEmployeeIsValidAndPresent_ShouldDeleteEmployee [10ms]
+  û DeleteEmployee_WhenEmployeeIsValidAndNotPresent_ShouldThrowException [6ms]
+  û DeleteEmployee_WhenEmployeeIsNull_ShouldThrowException [2ms]
+  û DeleteProject_WhenProjectIsValidAndPresent_ShouldDeleteProject [9ms]
+  û DeleteProject_WhenProjectIsValidAndNotPresent_ShouldThrowException [6ms]
+  û DeleteProject_WhenProjectIsNull_ShouldThrowException [2ms]
+  û AssignProjectToEmployee_WhenProjectOrEmployeeAreNotValid_ShouldThrowException [8ms]
+  û AssignProjectToEmployee_WhenProjectOrEmployeeAreValidAndNotPresent_ShouldThrowException [28ms]
+
+Test Run Successful.
+Total tests: 14
+     Passed: 14
+ Total time: 4.0746 Seconds
+Committing...
+Visited Classes 57 of 253 (22.53)
+Visited Methods 195 of 1253 (15.56)
+Visited Points 686 of 4051 (16.93)
+Visited Branches 360 of 3271 (11.01)
+
+==== Alternative Results (includes all methods including those without corresponding source) ====
+Alternative Visited Classes 57 of 273 (20.88)
+Alternative Visited Methods 195 of 1489 (13.1)
